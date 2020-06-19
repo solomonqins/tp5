@@ -1,6 +1,8 @@
 ThinkPHP 5.0
 ===============
 
+-企业级可迭代开箱即用的ThinkPHP5.0框架
+
 [![GitHub release](https://img.shields.io/github/release/top-think/think.svg?maxAge=2592000)](https://github.com/top-think/think/releases/latest)
 [![Packagist](https://img.shields.io/packagist/v/topthink/think.svg?maxAge=2592000)](https://packagist.org/packages/topthink/think)
 [![Packagist](https://img.shields.io/packagist/dt/topthink/think.svg?maxAge=2592000)](https://packagist.org/packages/topthink/think)
