@@ -41,8 +41,17 @@ www  WEB部署目录（或者子目录）
 ├─README.md             README文件
 ├─LICENSE.txt           授权说明文件
 ├─think                 命令行入口文件
-├─application           应用目录
-│  ├─common             公共模块目录（可以更改）
+├─app                   应用目录
+│  ├─api                api模块
+│  │  ├─controller/v1   控制器v1版本
+│  │  ├─model           数据库模型
+│  │  ├─validate        参数效验层
+│  ├─admin              admin模块 
+│  │  ├─controller/v1   控制器v1版本
+│  ├─common             公共模块目录（可以更改） 
+│  ├─extra              自定义配置目录 
+│  ├─lib                自定义类扩展目录
+│  │  ├─exception       异常处理层
 │  ├─runtime            应用的运行时目录（可写，可定制）
 │  ├─module_name        模块目录
 │  │  ├─config.php      模块配置文件
@@ -79,6 +88,7 @@ www  WEB部署目录（或者子目录）
 │
 ├─extend                扩展类库目录
 ├─vendor                第三方类库目录（Composer依赖库）
+├─zerg.sql              MySQL数据库可执行文件
 ~~~
 
 > router.php用于php自带webserver支持，可用于快速测试
